@@ -19,3 +19,5 @@ CSV HEADER;
 	
 SELECT *
 FROM state_covid_19;
+
+-- Temitayo "David" Olanbiwonnu

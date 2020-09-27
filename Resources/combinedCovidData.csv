@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 todays_date,positive,negative,deathIncrease,state,total_cases,death,updated,state_abbr
+=======
+current_date,positive,negative,deathIncrease,state,case,death,updated,state_abbr
+>>>>>>> 2a54c682eb93668011f49d793b6049915ce460cc
 20200925,8202.0,433130.0,6,Alaska,7254,52,2020-09-26 20:00:41,AK
 20200925,150658.0,963364.0,-15,Alabama,150658,2519,2020-09-26 20:00:41,AL
 20200925,79946.0,848822.0,20,Arkansas,79946,1266,2020-09-26 20:00:41,AR

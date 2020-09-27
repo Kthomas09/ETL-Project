@@ -32,4 +32,8 @@ def describeData(dataFrameName):
     print(f'Dataframe has {lengthofDF} rows')
     columnNames = dataFrameName.columns.tolist()
     print(f'Column names for the Data Frame: \n\n{columnNames}')
+<<<<<<< HEAD
 # by ph1-6180
+=======
+#by ph1-6180
+>>>>>>> 2a54c682eb93668011f49d793b6049915ce460cc
