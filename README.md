@@ -3,10 +3,10 @@
 Assignment: ETL Project
 Group members: Temitayo "David" Olanbiwonnu, Jennifer S, Kent L. Thomas, Cynthia Zhang
 
-Topic: United States COVID-19 Demographic Data in Relation to Geographic
+Topic: United States COVID-19 Demographic Data in Relation to States Data
 
 Summary:
-This is a project to extract, transform, and load state COVID-19 data into a postgress database. This is an exstention to our previous project entitled "GWU Project 1" where we extracted, cleaned, and visualize critical COVID-19 data analyzing geographic and demographic information. In this project we set out to make the data more responsive, and develop a more sustainable way of storing the state COVID-19 data. 
+This is a project to extract, transform, and load state COVID-19 data into a postgress database. This is an extension to our previous project entitled "GWU Project 1" where we extracted, cleaned, and visualize critical COVID-19 data analyzing geographic and demographic information. In this project we set out to make the data more current, responsive, and develop a more sustainable way of storing the state COVID-19 data. 
 
 ## Extraction:
 
@@ -18,7 +18,7 @@ We extracted data from two seperate data sources originiating from the Postman C
 
 Jennifer S & Cynthia Zhang:
 
-When cleaning and transforming the data, we imported the csv files into the ETL Queries jupyternotebook. Next, using functions getTypes, describeData and analyzeNaNs's, we get the dataset dtypes, statistics, NaN counts and length, before and after cleaning. This was done to verify changes in datasets were made and accurate. In order to match the Covid Tracking data set we had to drop all the data except the most recent day to match the FinnHub API data set. We next removed the columns that were not a necessity. In order to merge the two data sets, we had to change the names of the state names in the FinnHub data to the state abbrviation. Finally we merged the two datasets, changed the names of various columns to help load the data, and exported the merged csv file (combinedCovidData.csv). 
+When cleaning and transforming the data, we imported the csv files into the ETL Queries jupyternotebook. Next, using functions getTypes, describeData and analyzeNaNs's, we get the dataset dtypes, statistics, NaN counts and length, before and after cleaning. This was done to verify changes in datasets were made and accurate. In order to match the Covid Tracking data set we had to drop all the data except the most recent day to match the FinnHub API data set. We next removed the columns that were not a necessity. In order to merge the two data sets, we had to change the names of the state names in the FinnHub data to the state abbreviation. Finally we merged the two datasets, changed the names of various columns to help load the data, and exported the merged csv file (combinedCovidData.csv). 
 
 ## Load
 
